@@ -15,7 +15,7 @@ Thanks for taking the time to contribute.
 Fork and clone the repository, then run:
 
 ```sh
-cd speed-test
+cd CLI-Speed-Test
 npm test
 node bin/cli.js --duration 3
 ```

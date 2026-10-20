@@ -1,5 +1,7 @@
 # speed-test
 
+[![CI](https://github.com/ruamazi/CLI-Speed-Test/actions/workflows/ci.yml/badge.svg)](https://github.com/ruamazi/CLI-Speed-Test/actions/workflows/ci.yml)
+
 A small terminal internet speed test for **ping, jitter, download, and upload**.
 
 It uses Cloudflare's public edge network and runs entirely on Node.js. There are
@@ -20,10 +22,9 @@ no runtime dependencies, API keys, accounts, or external binaries to set up.
 
 ## Run it
 
-From a clone of this repository:
-
 ```sh
-cd speed-test
+git clone https://github.com/ruamazi/CLI-Speed-Test.git
+cd CLI-Speed-Test
 npm start
 ```
 

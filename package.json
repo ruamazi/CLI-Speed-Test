@@ -26,5 +26,13 @@
   ],
   "author": "speed-test contributors",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruamazi/CLI-Speed-Test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ruamazi/CLI-Speed-Test/issues"
+  },
+  "homepage": "https://github.com/ruamazi/CLI-Speed-Test#readme",
   "private": true
 }

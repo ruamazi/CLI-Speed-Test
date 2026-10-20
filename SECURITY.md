@@ -12,8 +12,9 @@ Please do not open a public issue for a security problem.
 
 Use GitHub's private vulnerability reporting:
 
-1. Open the repository's **Security** tab.
-2. Click **Report a vulnerability**.
+1. Open the repository's
+   [Security tab](https://github.com/ruamazi/CLI-Speed-Test/security).
+2. Click [Report a vulnerability](https://github.com/ruamazi/CLI-Speed-Test/security/advisories/new).
 3. Include the affected version, Node.js version, operating system, a
    reproduction, and the potential impact.
 
