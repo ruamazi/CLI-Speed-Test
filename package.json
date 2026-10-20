@@ -1,0 +1,30 @@
+{
+  "name": "speed-test",
+  "version": "1.0.0",
+  "description": "Terminal internet speed test: download, upload, ping and jitter",
+  "type": "module",
+  "bin": {
+    "speed-test": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "speedtest",
+    "speed-test",
+    "internet-speed",
+    "bandwidth",
+    "latency",
+    "ping",
+    "download",
+    "upload",
+    "cli"
+  ],
+  "author": "speed-test contributors",
+  "license": "MIT",
+  "private": true
+}

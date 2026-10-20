@@ -1,0 +1,60 @@
+name: Bug report
+description: Report a reproducible problem with the speed test
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. **Do not include passwords, tokens, `.env`
+        contents, or other secrets.**
+
+        The speed test prints your public IP and ISP. Redact those details if
+        you do not want to share them.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Run `npm start -- --duration 3`
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Relevant output
+      description: Paste the output with personal details redacted.
+      render: text
+  - type: input
+    id: node
+    attributes:
+      label: Node.js version
+      placeholder: v24.13.0
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: macOS 15, Ubuntu 24.04, Windows 11
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Anything else that might help.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: I have removed secrets and personal information from the output above.
+          required: true

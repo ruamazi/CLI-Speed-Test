@@ -1,0 +1,26 @@
+# Dependencies and build output
+node_modules/
+coverage/
+dist/
+*.tgz
+
+# Local environment and secrets
+.env
+.env.*
+.envrc
+!.env.example
+.npmrc
+
+# Logs and caches
+*.log
+npm-debug.log*
+.npm/
+.eslintcache
+.nyc_output/
+.cache/
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+*.local
